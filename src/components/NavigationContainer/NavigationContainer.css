@@ -1,0 +1,47 @@
+.navigationTitle h2 {
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.navigationTitle {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.navigationContainer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  position: relative;
+}
+
+.navigationButtons {
+  display: flex;
+  gap: 23.24px;
+}
+
+.navigationButtons button {
+  cursor: pointer;
+
+  border: none;
+  background: none;
+  width: 16.78px;
+}
+
+.emptyBar {
+  position: absolute;
+  top: 0;
+  height: 1px;
+  width: 100%;
+  background: #00000023;
+}
